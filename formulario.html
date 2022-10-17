@@ -1,0 +1,69 @@
+
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>Tela Login</title>
+      <style>
+      body {
+    background-image: url(https://cdn.wallpapersafari.com/31/99/KeLv1g.jpg);
+    background-size: 1950px;
+    background-repeat: no-repeat;
+}
+h1{
+  font-size: 50px;
+  text-align: center;
+  color: rgb(255, 0, 191);
+}
+#formulario{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+.btn_submit{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  color: rgb(0, 0, 0);
+}
+.btn_submit:hover {
+  background-color: rgb(153, 0, 204);
+}
+p{
+  margin: auto;
+  font-size: 20px;
+  color: rgb(255, 0, 191);
+}
+.container {
+  border-radius: 10px;
+  width: 82%;
+  height: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(1, 1, 1, 0.6);
+}
+      </style>
+      
+    </head>
+
+    <body>
+
+    <main class="container">
+      <header>
+        <h1>Cadastre-se</h1>
+      </header>
+       <form id="formulario" autocomplete="off" action="index.html">
+                <fieldset>
+                  <p>Nome:</p> <input class="campo_nome" type="text" required>
+                  <p>Email:</p> <input class="campo_email" required>
+                  <p>Idade:</p> <input class="campo_idade" required>
+                  <p>Comente:</p> <textarea class="campo_comentario" required></textarea><br>
+                  <input class="btn_submit" type="Submit" value="Enviar">
+                </fieldset>
+            </form>
+     </main> 
+    </body>
+
+</html>
